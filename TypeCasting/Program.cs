@@ -49,6 +49,14 @@ namespace TypeCasting
             Console.WriteLine(Convert.ToInt32(Wight));
             Console.WriteLine(Convert.ToString(married));
 
+            Console.WriteLine("Enter your Name: ");
+            string Name = Console.ReadLine();
+            Console.WriteLine($"Your Name is: {Name}");
+
+            Console.WriteLine("Enter your age: ");
+            int UserAge = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Your age is: {UserAge}");
+
             Console.ReadKey();
         }
     }
